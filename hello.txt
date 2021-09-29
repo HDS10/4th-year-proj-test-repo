@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 Hello from yash1
+=======
+Hello from notyashyup
+>>>>>>> 7b55529b327c7cc23581440ba560f68c7e79c38a
 
 Hi there this is yash
 
