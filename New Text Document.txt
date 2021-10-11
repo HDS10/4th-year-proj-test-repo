@@ -1,1 +1,105 @@
-abcd
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        td {
+            background-color:#0d0569;
+            color: gold;
+        }
+
+        table {
+            border-spacing: 0;
+            border-bottom: none;
+        }
+
+        .main {
+            background-color: orange;
+            color: gold;
+        }
+    </style>
+</head>
+
+<body>
+    <form action="#">
+        <table cellpadding=5px>
+            <tr>
+                <td class="main" align="left" colspan="2">Sign Up</td>
+            </tr>
+            <tr>
+                <td align="right">First Name</td>
+                <td><input type="text" placeholder="Enter First Name" name="fname"></td>
+            </tr>
+            <tr>
+                <td align="right">Last Name</td>
+                <td><input type="text" placeholder="Enter Last Name" name="lname"></td>
+            </tr>
+            <tr>
+                <td align="right">Date Of Birth</td>
+                <td><select name="Day">
+                        <option value="" disabled selected hidden>Day</option>
+                        <option value="day">1</option>
+                        <option value="day">2</option>
+                    </select>
+                    <select name="Month">
+                        <option value="" disabled selected hidden>Month</option>
+                        <option value="jan">Jan</option>
+                        <option value="feb">Feb</option>
+                    </select>
+                    <select name="Year">
+                        <option value="" disabled selected hidden>Year</option>
+                        <option value="year">1992</option>
+                        <option value="year">1993</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td align="right">Gender</td>
+                <td>
+                    <input type="radio" name="gender" value="male">Male
+                    <input type="radio" name="gender" value="female">Female
+                </td>
+            </tr>
+            <tr>
+                <td align="right">Country</td>
+                <td><select name="Country">
+                        <option value="" disabled selected hidden>Country</option>
+                        <option value="day">India</option>
+                        <option value="day">Sri Lanka</option>
+                    </select></td>
+            </tr>
+            <tr>
+                <td align="right">E-mail</td>
+                <td><input type="text" placeholder="Enter Email" name="email" required></td>
+            </tr>
+            <tr>
+                <td align="right">Phone</td>
+                <td><input type="text" placeholder="Enter Phone"></td>
+            </tr>
+            <tr>
+                <td align="right">Password</td>
+                <td><input type="password" name="psw" required></td>
+            </tr>
+            <tr>
+                <td align="right">Confirm Password</td>
+                <td><input type="password" name="cpsw" required></td>
+                </td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>
+                    <input type="checkbox" name="privacy">
+                    I Agree to the terms of use
+                </td>
+            </tr>
+            <tr>
+                <td class="main" colspan="2" align="right">
+                    <button type="submit" style="background-color:#6fbf2e; color: white; padding: 9px; border: none;">Submit</button>
+                    <button type="reset" style="background-color:#ed5342; color: white; padding: 9px; border: none;">Cancel</button>
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+
+</html>
