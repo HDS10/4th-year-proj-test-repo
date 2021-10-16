@@ -24,7 +24,7 @@
     <form action="#">
         <table cellpadding=5px>
             <tr>
-                <td class="main" align="left" colspan="2">Sign Up</td>
+                <td class="main" align="left" colspan="2">SignUp</td>
             </tr>
             <tr>
                 <td align="right">First Name</td>
