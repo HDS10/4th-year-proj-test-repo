@@ -78,7 +78,7 @@
             </tr>
             <tr>
                 <td align="right">Password</td>
-                <td><input type="password" name="psw" required></td>
+                <td><input type="password" name="psd" required></td>
             </tr>
             <tr>
                 <td align="right">Confirm Password</td>
