@@ -86,13 +86,6 @@
                 </td>
             </tr>
             <tr>
-                <td></td>
-                <td>
-                    <input type="checkbox" name="privacy">
-                    I Agree to the terms of use
-                </td>
-            </tr>
-            <tr>
                 <td class="main" colspan="2" align="right">
                     <button type="submit" style="background-color:#6fbf2e; color: white; padding: 9px; border: none;">Submit</button>
                     <button type="reset" style="background-color:#ed5342; color: white; padding: 9px; border: none;">Cancel</button>
